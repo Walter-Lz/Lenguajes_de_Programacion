@@ -246,4 +246,38 @@ func main() {
 	fmt.Println("Lista de Productos ordenada por precio.............")
 	fmt.Println(Ordenamiento(lProductos))
 
-}
+} /*
+	"C:\Program Files\Go\bin\go.exe" build -o C:\Users\Walter\AppData\Local\Temp\GoLand\___go_build_Paradigma_Imperativo.exe "C:\Users\Walter\Ejercicios\Paradigma Imperativo\EjercicioClase.go" #gosetup
+	C:\Users\Walter\AppData\Local\Temp\GoLand\___go_build_Paradigma_Imperativo.exe
+	Archivo creado exitosamente Productos.txt
+	----------------------Datos Cargados de Archivo--------------
+	[{leche 4 1200} {Manteca 6 1000} {cacao 3 1700} {café 8 4500} {azucar 8 1500}]
+	[{leche 4 1200} {Manteca 6 1000} {cacao 3 1700} {café 8 4500} {azucar 8 1500}]
+	[{leche 4 1200} {Manteca 6 1000} {cacao 3 1700} {café 8 4500} {azucar 28 1500}]
+	[{leche 4 1200} {Manteca 6 1000} {cacao 3 1700} {café 8 4500} {azucar 28 1500}]
+
+	Se modifica la lista con los productos disponibles
+	[{leche 4 1200} {Manteca 6 1000} {cacao 3 1700} {café 8 4500} {azucar 28 1500}]
+
+	Se Agrega una funcion con Existencias minimas
+	[{leche 4 1200} {Manteca 6 1000} {cacao 3 1700} {café 8 4500}]
+
+	Se Agrega una funcion para aumentar las Existencias minimas
+	[{leche 10 1200} {Manteca 10 1000} {cacao 10 1700} {café 10 4500} {azucar 28 150
+	0}]
+	--------------------Archivo---------------------------
+	Leer Archivo..............
+	El contenido del archivo es:
+	leche,10,1200
+	Manteca,10,1000
+	cacao,10,1700
+	café,10,4500
+	azucar,28,1500
+	Lista de Productos ordenada por precio.............
+	[{Manteca 10 1000} {leche 10 1200} {azucar 28 1500} {cacao 10 1700} {café 10 450
+	0}]
+
+	Process finished with the exit code 0
+
+*/
+

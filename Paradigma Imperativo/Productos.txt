@@ -1,7 +1,5 @@
 leche,10,1200
 Manteca,10,1000
 cacao,10,1700
-café,12,4500
-azucar,32,1500
-afé,12,4500
-azucar,12,4500
+café,10,4500
+azucar,28,1500

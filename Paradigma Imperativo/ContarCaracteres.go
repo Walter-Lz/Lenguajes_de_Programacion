@@ -22,4 +22,16 @@ func main() {
 
 	fmt.Println(ContarCaracteres("Hoy juega la seleccion de Costa Rica."))
 
-}
+} /*
+	"C:\Program Files\Go\bin\go.exe" build -o C:\Users\Walter\AppData\Local\Temp\GoLand\___go_build_Paradigma_Imperativo__2_.exe "C:\Users\Walter\Ejercicios\Paradigma Imperativo\ContarCaracteres.go" #gosetup
+	C:\Users\Walter\AppData\Local\Temp\GoLand\___go_build_Paradigma_Imperativo__2_.exe
+	El numero de caracteres es:  15
+	Cantidad de palabras:  3
+	Cantidad de Lineas:  1
+	El numero de caracteres es:  37
+	Cantidad de palabras:  7
+	Cantidad de Lineas:  1
+
+	Process finished with the exit code 0
+
+*/

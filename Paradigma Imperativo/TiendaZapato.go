@@ -46,7 +46,7 @@ func (lista *listaCalzados) venderCalzado(marca string, talla int, cantidad int)
 	var calzado = lista.buscarCalzado(marca, talla)
 	var ListaAuxiliar listaCalzados
 	if calzado != -1 && cantidad > 0 {
-		fmt.Printf("Venta de %d calzados,talla %d, marca. %s\n", cantidad, talla, marca)
+		fmt.Printf("Venta de %d calzados,talla %d, marca %s.\n", cantidad, talla, marca)
 		if (*lista)[calzado].cantidad > cantidad { // si existe inventario
 			(*lista)[calzado].cantidad = (*lista)[calzado].cantidad - cantidad
 		} else { // se procede a vender y a eliminar del stock
@@ -85,4 +85,18 @@ func main() {
 	fmt.Println("Lista de zapatos Actulizada")
 	fmt.Println(lista_calzados_slice)
 
-}
+} /*
+	"C:\Program Files\Go\bin\go.exe" build -o C:\Users\Walter\AppData\Local\Temp\GoLand\___go_build_Paradigma_Imperativo__1_.exe "C:\Users\Walter\Ejercicios\Paradigma Imperativo\TiendaZapato.go" #gosetup
+	C:\Users\Walter\AppData\Local\Temp\GoLand\___go_build_Paradigma_Imperativo__1_.exe
+	Lista principal
+	[{Nike 20000 36 7} {Adidas 40000 38 4} {Adidas 35000 39 8} {Jordan 50000 37 3} {
+	Jordan 50000 40 9} {Adidas 30000 40 8} {Nike 30000 40 10} {Jordan 55000 42 9} {A
+	didas 22000 35 6}]
+	-------------------------
+	Venta de 8 calzados,talla 40, marca Adidas.
+	Lista de zapatos Actulizada
+	[{Nike 20000 36 7} {Adidas 40000 38 4} {Adidas 35000 39 8} {Jordan 50000 37 3} {
+	Jordan 50000 40 9} {Nike 30000 40 10} {Jordan 55000 42 9} {Adidas 22000 35 6}]
+
+	Process finished with the exit code 0
+*/
